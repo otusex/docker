@@ -30,7 +30,7 @@ docker-compose up -d --build
 Директория php-fpm - содержит докер файл + конфиги php74-fpm
 
 
-Проерить:
+Проверить:
 
 ```bash
 curl 127.0.0.1:8080/index.php
