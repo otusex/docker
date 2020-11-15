@@ -11,7 +11,7 @@ docker-compose version 1.27.4, build 40524192
 
 ```
 
-Также необходимо отелбчить selinux
+Также необходимо отключить selinux
 
 Запускать
 ```bash
@@ -28,3 +28,10 @@ docker-compose up -d --build
 
 Директория nginx - содержит докер файл + конфиги nginx
 Директория php-fpm - содержит докер файл + конфиги php74-fpm
+
+
+Проерить:
+
+```bash
+curl 127.0.0.1:8080/index.php
+```
